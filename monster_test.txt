@@ -1,0 +1,57 @@
+RLG327 MONSTER DESCRIPTION 1
+
+BEGIN MONSTER
+NAME Junior Barbarian
+SYMB p
+COLOR BLACK RED
+DESC
+This is a junior barbarian.  He--or is it she?  You can't tell for sure--
+looks like... it should still be in barbarian school.  The barbarians are 
+putting them in the dungeons young these days.  It's wearing dirty, tattered
+cloth armor and wielding a wooden sword.  You have a hard time feeling
+intimidated.
+.
+SPEED 7+1d4
+DAM 0+1d4
+HP 12+2d6
+ABIL SMART
+RRTY 100
+END
+
+BEGIN MONSTER
+NAME Amazon Lich Queen
+DESC
+She was a powerful Amazon warrior in life.  Death at the hands of the undead
+hordes was followed by her resurrection through dark, necromantic arts.  Her
+power in life didn't approach her undead glory.  Clad in night-black robes
+that don't move in the wind, her incorporeal form commands the power of death
+over life.  You may just be her next victim.  You fear for your soul as you
+quake before her malevolent majesty.
+.
+SYMB p
+COLOR BLACK RED MAGENTA
+ABIL SMART PASS
+DAM 30+5d9
+HP 2999+1d1001
+SPEED 10+10d2
+RRTY 10
+END
+
+BEGIN MONSTER
+NAME Durin's Bane
+DESC
+Nameless Terror, Flame of Udun, Shadow and Flame
+This is a Balrog of Morgoth - Wielding a Fiery whip and flaming sword, a
+hellish beast with a mane and eyes of fire. This creature is responsible
+for the destruction of the great city of Moria. The defeat of this monster
+will avenge the death of countless dwarves, re-establish the wealth and power
+of the Misty Mountains and bring peace to the halls of Khazad-dum.
+.
+SYMB B
+COLOR RED MAGENTA
+SPEED 20+0d1
+ABIL SMART TELE UNIQ
+HP 100+0d1
+DAM 10+2d20
+RRTY 10
+END

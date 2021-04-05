@@ -1,0 +1,32 @@
+Change Log-
+
+2/08/2021 5pm made function to make the 21x80 grid 
+2/08/2021 5pm wrote method to generate random number of rooms with random y and x values (within a range) 
+2/9/2021 6pm - fixed bugs that caused the rooms to be too thin or too wide -- improved randomization 
+2/10/2021 - fixed bugs that caused rooms to print over each other and clip outside of map boundaries
+2/10/2021 5pm -made staircases 1 up and 1 down random based on room placement
+2/11/2021 5-8 pm wrote method for calculating and placing down corridors
+2/12/2021 5pm: decided to use professor’s code drop
+2/12/2021 5pm: started writing write method for the save switch inputs for file size and file type markers.
+2/14/2021 4 pm: began writing writefile method for dungeon map
+2/16/2021 5-8pm continued to writefile method for dungeon map
+2/17/2021 5pm: started writing a read file method for loading the dungeon map.
+2/18/2021 5 pm: finished writefile method for dungeon map and fixed various conversion errors
+2/22/2021 5pm: created non tunneling monster map struct and made a function incorporating professors algorithm to find shortest path to character 
+2/22/2021 5pm: created tunneling monster map structure and incorporated professors code to calculate distance between all nodes
+2/23/2021 5pm: created comparable for non tunneling monster and printing out costs to get to monster from each room, stair, corridor 
+2/24/2021 6pm: realized that distances were wrong for tunneling monster, utilized monster1 code to fix discrepancies
+3/2/2021 5pm made intelligent monster and sub types of that
+3/3/2021 5pm finished intelligent monster and sub types 
+3/4/2021 started priority queue 
+3/10/2021: worked on making user interface for pc to move (ncurses)
+3/11/2021: completed user interface to get pc to move
+3/11/2021: completed user interface to print infomationion
+3/24/2021: added keys to toggle between fog view and normal
+3/24/2021: added teleport functionality 
+3/25/2021: added targeting mode, added goto and r  keys to toggle, testing
+03/28/2021: discuss / brainstorming how to handle the assignment
+03/29/2021: create monster maker class, dice class and implement them
+03/30/2021: implement parser to read monster description
+03/31/2021: implement monster_color and testing
+04/01/2021: implement monster ability and testing

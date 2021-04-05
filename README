@@ -1,0 +1,11 @@
+Group menmber: Derrick Wright  dwright@iastate.edu
+               Hamza Shahid    hmshahid@iastate.edu
+               Sonyta Ung      ung@iastate.edu
+The process to achieve this Parsing Monster Definitions are:
+
+- making a monster object class and making important attributes to save info to the class
+- make dice class with attributes for upcoming assignments
+- parsing through the txt file printing attributes monsters have and their respective discriptions
+- saving information we parse through to use for later
+
+
